@@ -1,1 +1,7 @@
+import math
+height = 5
+bottom_side = 20
+top_side = 10
+formula = (top_side+bottom_side)*height/2
 
+print (str(math.floor(formula))+"㎠")
