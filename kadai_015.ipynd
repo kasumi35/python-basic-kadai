@@ -1,4 +1,11 @@
-名前(name)と年齢(age)の属性を持つHumanクラスを作成してください。
-nameとageを標準出力(print)するメソッド(printinfo)を追加してください。
+class Human:
+  def __init__(self,name,age):
+    self.shimei = name
+    self.toshi = age
 
-Humanクラスのインスタンスは、変数に代入してプログラム内で使用してください。
+
+#インスタンス
+human = Human("ishiguro",35)
+
+print(human.shimei)
+print(human.toshi)
