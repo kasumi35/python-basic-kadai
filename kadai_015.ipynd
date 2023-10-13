@@ -1,11 +1,12 @@
 class Human:
-  def __init__(self,name,age):
-    self.shimei = name
-    self.toshi = age
-
-
-#インスタンス
-human = Human("ishiguro",35)
-
-print(human.shimei)
-print(human.toshi)
+ 
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+ 
+    def printinfo(self):
+        print(self.name)
+        print(self.age)
+ 
+human = Human('石黒', 35)
+human.printinfo()
